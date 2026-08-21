@@ -1,8 +1,0 @@
-background-opacity = 0.9
-background-opacity-cells = true
-background-blur = true
-window-decoration = server
-gtk-titlebar = false
-# theme = Challenger Deep
-# theme = Tomorrow Night Burns
-theme = Hopscotch.256 
