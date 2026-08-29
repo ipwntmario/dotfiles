@@ -8,33 +8,33 @@ normal = { family = "JetBrainsMono NF", style = "Regular" }
 size = 12
 
 [colors.primary]
-foreground = "#c0caf5"
-background = "#1a1b26"
+foreground = "#cbe1e7"
+background = "#1e1c31"
 
 [colors.cursor]
-text = "#1a1b26"
-cursor = "#c0caf5"
+text = "#1e1c31"
+cursor = "#fbfcfc"
 
 [colors.selection]
-text = "#c0caf5"
-background = "#283457"
+text = "#1e1c31"
+background = "#cbe1e7"
 
 [colors.normal]
-black = "#15161e"
-red = "#f7768e"
-green = "#9ece6a"
-yellow = "#e0af68"
-blue = "#7aa2f7"
-magenta = "#bb9af7"
-cyan = "#7dcfff"
-white = "#a9b1d6"
+black = "#141228"
+red = "#ff5458"
+green = "#62d196"
+yellow = "#ffb378"
+blue = "#65b2ff"
+magenta = "#906cff"
+cyan = "#63f2f1"
+white = "#a6b3cc"
 
 [colors.bright]
-black = "#414868"
-red = "#f7768e"
-green = "#9ece6a"
-yellow = "#e0af68"
-blue = "#7aa2f7"
-magenta = "#bb9af7"
-cyan = "#7dcfff"
-white = "#c0caf5"
+black = "#565575"
+red = "#ff8080"
+green = "#95ffa4"
+yellow = "#ffe9aa"
+blue = "#91ddff"
+magenta = "#c991e1"
+cyan = "#aaffe4"
+white = "#cbe3e7"
