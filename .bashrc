@@ -25,7 +25,7 @@ fi
 unset rc
 
 # eval "$(starship init bash)"
-eval "$(oh-my-posh init bash --config ~/Documents/ohmyposh_themes/dylans-theme-minimal.omp.toml)"
+eval "$(oh-my-posh init bash --config ~/Documents/ohmyposh_themes/dylans-theme-minimal-magenta.omp.toml)"
 
 alias config-bash="nvim ~/.bashrc"
 alias config-alacritty="nvim ~/.config/alacritty/alacritty.toml"
