@@ -24,10 +24,12 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
-eval "$(starship init bash)"
-# eval "$(oh-my-posh init bash --config ~/Documents/ohmyposh_themes/dylans-theme-minimal.omp.toml)"
+# eval "$(starship init bash)"
+eval "$(oh-my-posh init bash --config ~/Documents/ohmyposh_themes/dylans-theme-minimal.omp.toml)"
 
-alias config-ghostty="nvim ~/.config/ghostty/config.ghostty"
 alias config-bash="nvim ~/.bashrc"
-alias config-starship="nvim ~/.config/starship.toml"
+alias config-alacritty="nvim ~/.config/alacritty/alacritty.toml"
 alias config-kitty="nvim ~/.config/kitty/kitty.conf"
+alias config-ghostty="nvim ~/.config/ghostty/config.ghostty"
+alias config-starship="nvim ~/.config/starship.toml"
+alias ascii-aquarium="npx ascii-aquarium"
