@@ -38,3 +38,6 @@ blue = "#91ddff"
 magenta = "#c991e1"
 cyan = "#aaffe4"
 white = "#cbe3e7"
+
+[cursor]
+style = { shape = "Beam", blinking = "On" }
