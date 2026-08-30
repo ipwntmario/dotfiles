@@ -10,5 +10,7 @@ matches:
     replace: "⊕"
   - trigger: ":imp"
     replace: "→"
-  - trigger: ":eq"
+  - trigger: ":bi"
     replace: "↔"
+  - trigger: ":eq"
+    replace: "≡"
