@@ -36,10 +36,6 @@ alias config-ghostty="nvim ~/.config/ghostty/config.ghostty"
 alias config-starship="nvim ~/.config/starship.toml"
 alias config-espanso="nvim ~/.config/espanso/match/base.yml"
 alias ascii-aquarium="npx ascii-aquarium"
-source ~/z.sh
-source ~/z.sh
-source /usr/share/z/z.sh
-source /usr/share/z/z.sh
 
 #Set up zoxide
 eval "$(zoxide init bash)"
