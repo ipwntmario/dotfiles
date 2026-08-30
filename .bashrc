@@ -25,8 +25,8 @@ fi
 unset rc
 
 # Prompt Theme
-# eval "$(starship init bash)"
-eval "$(oh-my-posh init bash --config ~/Documents/ohmyposh_themes/dylans-theme-minimal-magenta.omp.toml)"
+eval "$(starship init bash)"
+# eval "$(oh-my-posh init bash --config ~/Documents/ohmyposh_themes/dylans-theme-minimal-magenta.omp.toml)"
 
 # Shortcut Aliases
 alias config-bash="nvim ~/.bashrc"
@@ -34,10 +34,15 @@ alias config-alacritty="nvim ~/.config/alacritty/alacritty.toml"
 alias config-kitty="nvim ~/.config/kitty/kitty.conf"
 alias config-ghostty="nvim ~/.config/ghostty/config.ghostty"
 alias config-starship="nvim ~/.config/starship.toml"
+alias config-espanso="nvim ~/.config/espanso/match/base.yml"
 alias ascii-aquarium="npx ascii-aquarium"
 source ~/z.sh
 source ~/z.sh
 source /usr/share/z/z.sh
 source /usr/share/z/z.sh
 
+#Set up zoxide
 eval "$(zoxide init bash)"
+
+# Set up fzf key bindings and fuzzy completion
+eval "$(fzf --bash)"
