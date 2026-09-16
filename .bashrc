@@ -30,9 +30,11 @@ eval "$(starship init bash)"
 
 # Shortcut Aliases
 alias config-bash="nvim ~/.bashrc"
+alias config-ble="nvim ~/.blerc"
 alias config-alacritty="nvim ~/.config/alacritty/alacritty.toml"
 alias config-kitty="nvim ~/.config/kitty/kitty.conf"
 alias config-ghostty="nvim ~/.config/ghostty/config.ghostty"
+alias config-tmux="nvim ~/.tmux.conf"
 alias config-starship="nvim ~/.config/starship.toml"
 alias config-espanso="nvim ~/.config/espanso/match/base.yml"
 alias ascii-aquarium="npx ascii-aquarium"
@@ -42,3 +44,10 @@ eval "$(zoxide init bash)"
 
 # Set up fzf key bindings and fuzzy completion
 eval "$(fzf --bash)"
+source -- ~/.local/share/blesh/ble.sh
+. "$HOME/.cargo/env"
+
+# Start tmux
+if command -v tmux &>/dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+  exec tmux
+fi
